@@ -5,11 +5,8 @@ import RegistrationForm from './components/RegistrationForm';
 import Webpage from './components/Webpage';
 
 ReactDOM.render(
-  (
-    <div>
+  ( <div>
       <RegistrationForm />
       <Webpage />
-    </div>
-  ),
-  document.getElementById('global')
-);
+    </div>),
+  document.getElementById('root'));
